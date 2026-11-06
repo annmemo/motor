@@ -1,0 +1,31 @@
+
+# CLion 本地配置
+.idea/
+
+# CMake 生成的构建目录
+build/
+cmake-build-*/
+
+# CMake 缓存
+CMakeCache.txt
+CMakeFiles/
+
+# STM32 编译产物
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+*.a
+*.lst
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Windows
+Thumbs.db
+Desktop.ini
